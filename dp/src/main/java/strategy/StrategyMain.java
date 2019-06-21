@@ -10,5 +10,8 @@ public class StrategyMain {
         System.out.println("D == "+ bill.tryToFly());
         System.out.println("B == "+ tweety.tryToFly());
 
+        bill.setFLyingAbility(new ItFlays());
+
+        System.out.println("D == "+ bill.tryToFly());
     }
 }
